@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private const float speed = 10.0f;
     private const int limit = -10;
+
+    public GameObject projectilePrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

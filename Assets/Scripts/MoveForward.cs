@@ -3,6 +3,7 @@ using UnityEngine;
 public class MoveForward : MonoBehaviour
 {
     private const float speed = 40.0f;
+    public GameObject projectilePrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
