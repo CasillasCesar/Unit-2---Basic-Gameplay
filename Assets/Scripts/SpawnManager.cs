@@ -8,18 +8,21 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeX = 15;
     private float spawnPosZ = 20;
 
+    private const float startDelay = 2.0f;
+    private const float spawnInterval = 1.5f;
+
     void Start()
     {
-        
+        InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnRandomAnimal();
-        }
+        //if (Input.GetKeyDown(KeyCode.S))
+        //{
+        //    SpawnRandomAnimal();
+        //}
     }
 
     void SpawnRandomAnimal()
