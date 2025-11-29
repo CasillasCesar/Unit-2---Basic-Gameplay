@@ -6174,6 +6174,7 @@ GameObject:
   - component: {fileID: 8474641065528891629}
   - component: {fileID: 8839312533483361078}
   - component: {fileID: -2832947939155744154}
+  - component: {fileID: 5624193341506172216}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -6281,6 +6282,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7b7796801485b4ca462d84cf0049fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &5624193341506172216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857656617677616549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08826574, y: 0.20389776, z: 0.27190897}
+  m_Center: {x: -0.0021605492, y: 0.09791716, z: 0.03132733}
 --- !u!1 &9045884421326117788
 GameObject:
   m_ObjectHideFlags: 0

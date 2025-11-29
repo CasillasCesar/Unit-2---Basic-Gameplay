@@ -376,6 +376,7 @@ GameObject:
   - component: {fileID: 7871607838407051684}
   - component: {fileID: 1069780531591996180}
   - component: {fileID: 8964053413031310973}
+  - component: {fileID: 4371495761046283679}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -456,6 +457,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7b7796801485b4ca462d84cf0049fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!65 &4371495761046283679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4875514930375327996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18684314, y: 0.46753764, z: 0.43470436}
+  m_Center: {x: -0.0021743558, y: 0.22873354, z: 0.06522621}
 --- !u!1 &5204202619133757907
 GameObject:
   m_ObjectHideFlags: 0
