@@ -466,6 +466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8229546592432874389}
   - component: {fileID: 4251694417427999882}
+  - component: {fileID: 6468629562709350135}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -591,6 +592,18 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!114 &6468629562709350135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929549597883444983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e94d46047908742b66ef08f92e8eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &1964386997762388849
 GameObject:
   m_ObjectHideFlags: 0
